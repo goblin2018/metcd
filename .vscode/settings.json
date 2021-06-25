@@ -1,0 +1,11 @@
+{
+    "protoc": {
+        "options": [
+            "--proto_path=/root/go/pkg/mod/github.com/gogo/protobuf@v1.3.2",
+            "--proto_path=/root/go/include",
+            "--proto_path=${workspaceRoot}",
+            "--proto_path=/root/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway@v1.16.0/third_party/googleapis",
+        ],
+        "path": "/root/go/bin/protoc"
+    }
+}
